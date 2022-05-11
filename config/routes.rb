@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :horarios, only: [:index]
-      resources :contratos, only: [:index]
+      resources :contratos, only: [:index] do
+        resources :horarios
+      end
       resources :empleados, only: [:index]
     end
   end

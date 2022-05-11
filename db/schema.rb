@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_05_11_201355) do
+ActiveRecord::Schema[7.0].define(version: 2022_05_11_222707) do
   create_table "contratos", force: :cascade do |t|
     t.string "nombre_empresa"
-    t.string "horario_incio"
+    t.string "horario_inicio"
     t.string "horario_fin"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
