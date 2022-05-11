@@ -1,4 +1,4 @@
-class HorariosController < ApplicationController
+class Api::V1::HorariosController < ApplicationController
   before_action :set_horario, only: %i[ show update destroy ]
 
   # GET /horarios

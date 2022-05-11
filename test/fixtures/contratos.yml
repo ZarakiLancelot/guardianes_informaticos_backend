@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_empresa: MyString
+  horario_incio: MyString
+  horario_fin: MyString
+
+two:
+  nombre_empresa: MyString
+  horario_incio: MyString
+  horario_fin: MyString
